@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="LogContext-Web.config Connection String" description="LogContext Connection String used in web.config by the application to access the database." defaultValue="Server=tcp:z17eirhnfz.database.windows.net,1433;Database=LoggerAPI_db;User ID=marc68128@z17eirhnfz;Password=NamasteMarc68;Trusted_Connection=False;Encrypt=True;Connection Timeout=30;" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Marc\\LoggerAPI\\LoggerAPI\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='LogContext']/@connectionString" />
+  </parameter>
+</parameters>
